@@ -20,6 +20,15 @@ div.card {
 div.details-container {
   display: none;
 }
+div.error-msg {
+  display: none;
+  text-align: left;
+  margin-left: 44px;
+  font-size: 14px;
+  margin-top: -6px;
+  color: red;
+  padding-bottom: 5px;
+}
 div.input-container {
   display: flex;
   flex-direction: row;
@@ -44,6 +53,7 @@ button.search-btn {
   background: none;
   border: none;
   cursor: pointer;
+  margin-top: auto;
 }
 .details-container h1 {
   font-size: 80px;
